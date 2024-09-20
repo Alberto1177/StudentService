@@ -4,8 +4,8 @@ package org.generation.exceptions;
 public class StudentNotException  extends Exception
 {
 
-    public StudentNotException( )
+    public StudentNotException(String message )
     {
-        super( "Student not found!" );
+        super( "Student not found! ["+message +"]");
     }
 }
